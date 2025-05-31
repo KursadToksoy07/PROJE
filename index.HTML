@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartWatch X200</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>SmartWatch X200</h1>
+  <p>Hayatınızı Kolaylaştıran Akıllı Saat</p>
+  <img src="https://i0.wp.com/cyberdeals.lk/wp-content/uploads/2024/09/X200-Pro-Series-9-Smart-Watch.jpg?fit=600%2C600&ssl=1" alt="SmartWatch X200 Pro">
+  <br>
+  <button class="buy-btn" onclick="document.querySelector('.price-section').scrollIntoView({ behavior: 'smooth' });">Şimdi Satın Al</button>
+</header>
+
+<section class="features">
+  <div class="feature-card">
+    <i class="fas fa-heartbeat"></i>
+    <p>Kalp Atış Takibi</p>
+    <span class="tooltip">Günlük kalp ritminizi ölçerek sağlık takibi sağlar.</span>
+  </div>
+  <div class="feature-card">
+    <i class="fas fa-wifi"></i>
+    <p>Wi-Fi & Bluetooth</p>
+    <span class="tooltip">Kablosuz bağlantı ile bildirimleri ve çağrıları gösterir.</span>
+  </div>
+  <div class="feature-card">
+    <i class="fas fa-battery-full"></i>
+    <p>7 Gün Pil</p>
+    <span class="tooltip">Tam şarjla 7 gün boyunca kullanım sağlar.</span>
+  </div>
+  <div class="feature-card">
+    <i class="fas fa-cloud-sun"></i>
+    <p>Hava Durumu</p>
+    <span class="tooltip">Anlık hava durumu bilgilerini gösterir.</span>
+  </div>
+</section>
+
+<section class="reviews">
+  <h2>Kullanıcı Yorumları</h2>
+  <div class="review-slider" id="review-slider">
+    <div class="review">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL5tuMLT69cmAIfPBf9N9h3UAOg5BVcXly-w&s" alt="Ayşe">
+      <h4>Ayşe Yılmaz</h4>
+      <p>Harika bir ürün! Spor yaparken çok yardımcı oluyor.</p>
+    </div>
+    <div class="review">
+      <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Mehmet">
+      <h4>Mehmet Demir</h4>
+      <p>Şık ve kullanışlı. Bildirimleri takip etmek çok kolay.</p>
+    </div>
+    <div class="review">
+      <img src="https://img3.stockfresh.com/files/l/lithian/m/81/6255119_stock-photo-young-woman-taking-photos.jpg" alt="Selin">
+      <h4>Selin Koç</h4>
+      <p>Pil ömrü uzun, tasarımı çok zarif. Tavsiye ederim.</p>
+    </div>
+  </div>
+  <div class="slider-buttons">
+    <button onclick="slide(-1)">‹</button>
+    <button onclick="slide(1)">›</button>
+  </div>
+</section>
+
+<section class="price-section">
+  <p class="price">₺1.499</p>
+  <p class="shipping">Ücretsiz Kargo</p>
+  <button class="buy-btn">Satın Al</button>
+</section>
+
+<section class="contact">
+  <h2>İletişim</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Ad Soyad" required>
+    <input type="email" placeholder="E-posta" required>
+    <textarea rows="4" placeholder="Mesajınız..." required></textarea>
+    <button type="submit">Gönder</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 SmartWatch X200</p>
+  <a href="#">Instagram</a> |
+  <a href="#">Twitter</a> |
+  <a href="#">Facebook</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
